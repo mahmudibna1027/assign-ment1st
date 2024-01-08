@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url('../assign-ment1st/resources/Banner\ Image.png');
+    height: 500px;
+    border: 3x solid;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
