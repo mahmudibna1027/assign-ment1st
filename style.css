@@ -1,14 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
 }
-header{
-    background: url('../assign-ment1st/resources/Banner\ Image.png');
-    height: 500px;
-    border: 3x solid;
-    background-repeat: no-repeat;
+.bg-image{
+    background-image: url('../assign-ment1st/resources/Banner\ Image.png');
+    box-sizing: border-box;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-
-
+}
+.bg-text{
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
